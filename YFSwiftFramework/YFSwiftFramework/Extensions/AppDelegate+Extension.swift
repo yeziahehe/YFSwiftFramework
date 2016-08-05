@@ -11,25 +11,21 @@ import SwiftyBeaver
 
 let yfLog = SwiftyBeaver.self
 
-let cacheDirectory: NSURL = {
-    let urls = NSFileManager.defaultManager().URLsForDirectory(.CachesDirectory, inDomains: .UserDomainMask)
-    return urls[urls.endIndex - 1]
-}()
-
 extension AppDelegate {
     
     // MARK: Log Configure
+    /// 配置Log
     func configureYFLog() {
         
-        //控制台输出
+        // 控制台输出
         let console = ConsoleDestination()
         console.coloredLines = true
         yfLog.addDestination(console)
         
-        //文件输出
+        // 文件输出
         let file = FileDestination()
         file.coloredLines = true
-        file.logFileURL = cacheDirectory.URLByAppendingPathComponent(YFConfig.appName+".log")
+        file.logFileURL = NSFileManager.cachesURL().URLByAppendingPathComponent(YFConfig.appName+".log")
         yfLog.addDestination(file)
     }
 }

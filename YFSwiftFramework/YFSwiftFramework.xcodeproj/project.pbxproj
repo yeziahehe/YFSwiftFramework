@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2C92F9A11D4A48CA00A4DEE4 /* YFConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C92F9A01D4A48CA00A4DEE4 /* YFConfig.swift */; };
-		2C97993C1D4A55EE00F14D97 /* AppDelegate+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C97993B1D4A55EE00F14D97 /* AppDelegate+Extension.swift */; };
+		2C2B76931D54CC97005496C9 /* YFConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2B76921D54CC97005496C9 /* YFConfig.swift */; };
+		2C2B76961D54CCAA005496C9 /* AppDelegate+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2B76951D54CCAA005496C9 /* AppDelegate+Extension.swift */; };
+		2C2B76981D54D25D005496C9 /* NSFileManager+YFExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2B76971D54D25D005496C9 /* NSFileManager+YFExtension.swift */; };
 		2CA20F051D488AEC0095C5AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA20F041D488AEC0095C5AD /* AppDelegate.swift */; };
 		2CA20F071D488AEC0095C5AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA20F061D488AEC0095C5AD /* ViewController.swift */; };
 		2CA20F0A1D488AEC0095C5AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CA20F081D488AEC0095C5AD /* Main.storyboard */; };
@@ -37,8 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2C92F9A01D4A48CA00A4DEE4 /* YFConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YFConfig.swift; sourceTree = "<group>"; };
-		2C97993B1D4A55EE00F14D97 /* AppDelegate+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AppDelegate+Extension.swift"; sourceTree = "<group>"; };
+		2C2B76921D54CC97005496C9 /* YFConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YFConfig.swift; sourceTree = "<group>"; };
+		2C2B76951D54CCAA005496C9 /* AppDelegate+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AppDelegate+Extension.swift"; sourceTree = "<group>"; };
+		2C2B76971D54D25D005496C9 /* NSFileManager+YFExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSFileManager+YFExtension.swift"; sourceTree = "<group>"; };
 		2CA20F011D488AEC0095C5AD /* YFSwiftFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YFSwiftFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CA20F041D488AEC0095C5AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2CA20F061D488AEC0095C5AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -83,25 +85,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C2B76901D54CC29005496C9 /* YFNertworking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = YFNertworking;
+			sourceTree = "<group>";
+		};
+		2C2B76911D54CC97005496C9 /* Marcos */ = {
+			isa = PBXGroup;
+			children = (
+				2C2B76921D54CC97005496C9 /* YFConfig.swift */,
+			);
+			path = Marcos;
+			sourceTree = "<group>";
+		};
+		2C2B76941D54CCAA005496C9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2C2B76951D54CCAA005496C9 /* AppDelegate+Extension.swift */,
+				2C2B76971D54D25D005496C9 /* NSFileManager+YFExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		2C92F99C1D4A45EC00A4DEE4 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				2C2B76901D54CC29005496C9 /* YFNertworking */,
 			);
 			path = Common;
-			sourceTree = "<group>";
-		};
-		2C92F99F1D4A48BA00A4DEE4 /* Marco */ = {
-			isa = PBXGroup;
-			children = (
-				2C92F9A01D4A48CA00A4DEE4 /* YFConfig.swift */,
-			);
-			path = Marco;
 			sourceTree = "<group>";
 		};
 		2C97993A1D4A55D300F14D97 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				2C97993B1D4A55EE00F14D97 /* AppDelegate+Extension.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -133,7 +151,8 @@
 			children = (
 				2C97993A1D4A55D300F14D97 /* Helpers */,
 				2C92F99C1D4A45EC00A4DEE4 /* Common */,
-				2C92F99F1D4A48BA00A4DEE4 /* Marco */,
+				2C2B76911D54CC97005496C9 /* Marcos */,
+				2C2B76941D54CCAA005496C9 /* Extensions */,
 				2CA20F041D488AEC0095C5AD /* AppDelegate.swift */,
 				2CA20F061D488AEC0095C5AD /* ViewController.swift */,
 				2CA20F081D488AEC0095C5AD /* Main.storyboard */,
@@ -390,10 +409,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C97993C1D4A55EE00F14D97 /* AppDelegate+Extension.swift in Sources */,
-				2C92F9A11D4A48CA00A4DEE4 /* YFConfig.swift in Sources */,
 				2CA20F071D488AEC0095C5AD /* ViewController.swift in Sources */,
+				2C2B76931D54CC97005496C9 /* YFConfig.swift in Sources */,
+				2C2B76961D54CCAA005496C9 /* AppDelegate+Extension.swift in Sources */,
 				2CA20F051D488AEC0095C5AD /* AppDelegate.swift in Sources */,
+				2C2B76981D54D25D005496C9 /* NSFileManager+YFExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

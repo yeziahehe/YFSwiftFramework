@@ -28,7 +28,7 @@ public extension NSFileManager {
     }
     
     // MARK: Size
-    /// 缓存大小
+    /// 计算缓存大小
     public class func cachesSize() -> Float {
         let files = NSFileManager.defaultManager().subpathsAtPath(cacheURLStrng())
         var size: Float = 0

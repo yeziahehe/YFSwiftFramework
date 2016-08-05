@@ -8,9 +8,9 @@
 
 import Foundation
 
-class YFConfig {
+public class YFConfig {
     
     // TODO: 添加 app name，方便应用中用到该常量
-    static let appName = "YFSwiftFramework"
+    public static let appName: String = "com.coryphaei.YFSwiftFramework"
 
 }
