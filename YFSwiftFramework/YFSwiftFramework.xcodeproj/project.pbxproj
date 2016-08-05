@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C92F9A11D4A48CA00A4DEE4 /* YFConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C92F9A01D4A48CA00A4DEE4 /* YFConfig.swift */; };
+		2C97993C1D4A55EE00F14D97 /* AppDelegate+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C97993B1D4A55EE00F14D97 /* AppDelegate+Extension.swift */; };
 		2CA20F051D488AEC0095C5AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA20F041D488AEC0095C5AD /* AppDelegate.swift */; };
 		2CA20F071D488AEC0095C5AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA20F061D488AEC0095C5AD /* ViewController.swift */; };
 		2CA20F0A1D488AEC0095C5AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CA20F081D488AEC0095C5AD /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		2CA20F0F1D488AEC0095C5AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CA20F0D1D488AEC0095C5AD /* LaunchScreen.storyboard */; };
 		2CA20F1A1D488AEC0095C5AD /* YFSwiftFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA20F191D488AEC0095C5AD /* YFSwiftFrameworkTests.swift */; };
 		2CA20F251D488AEC0095C5AD /* YFSwiftFrameworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA20F241D488AEC0095C5AD /* YFSwiftFrameworkUITests.swift */; };
+		958D3398A45538C44615CFDE /* Pods_YFSwiftFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32136D78940A36796460ED81 /* Pods_YFSwiftFramework.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C92F9A01D4A48CA00A4DEE4 /* YFConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YFConfig.swift; sourceTree = "<group>"; };
+		2C97993B1D4A55EE00F14D97 /* AppDelegate+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AppDelegate+Extension.swift"; sourceTree = "<group>"; };
 		2CA20F011D488AEC0095C5AD /* YFSwiftFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YFSwiftFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CA20F041D488AEC0095C5AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2CA20F061D488AEC0095C5AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,9 @@
 		2CA20F201D488AEC0095C5AD /* YFSwiftFrameworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YFSwiftFrameworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CA20F241D488AEC0095C5AD /* YFSwiftFrameworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YFSwiftFrameworkUITests.swift; sourceTree = "<group>"; };
 		2CA20F261D488AEC0095C5AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32136D78940A36796460ED81 /* Pods_YFSwiftFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YFSwiftFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4549DC984107576C217B22AF /* Pods-YFSwiftFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YFSwiftFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YFSwiftFramework/Pods-YFSwiftFramework.debug.xcconfig"; sourceTree = "<group>"; };
+		A7B48475B3B592C0676C227A /* Pods-YFSwiftFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YFSwiftFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-YFSwiftFramework/Pods-YFSwiftFramework.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				958D3398A45538C44615CFDE /* Pods_YFSwiftFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +83,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C92F99C1D4A45EC00A4DEE4 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		2C92F99F1D4A48BA00A4DEE4 /* Marco */ = {
+			isa = PBXGroup;
+			children = (
+				2C92F9A01D4A48CA00A4DEE4 /* YFConfig.swift */,
+			);
+			path = Marco;
+			sourceTree = "<group>";
+		};
+		2C97993A1D4A55D300F14D97 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				2C97993B1D4A55EE00F14D97 /* AppDelegate+Extension.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		2CA20EF81D488AEC0095C5AD = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +113,8 @@
 				2CA20F181D488AEC0095C5AD /* YFSwiftFrameworkTests */,
 				2CA20F231D488AEC0095C5AD /* YFSwiftFrameworkUITests */,
 				2CA20F021D488AEC0095C5AD /* Products */,
+				47BCDD29D690BA51DD4070E5 /* Pods */,
+				E82D6163FBC95C9AD18F584A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +131,9 @@
 		2CA20F031D488AEC0095C5AD /* YFSwiftFramework */ = {
 			isa = PBXGroup;
 			children = (
+				2C97993A1D4A55D300F14D97 /* Helpers */,
+				2C92F99C1D4A45EC00A4DEE4 /* Common */,
+				2C92F99F1D4A48BA00A4DEE4 /* Marco */,
 				2CA20F041D488AEC0095C5AD /* AppDelegate.swift */,
 				2CA20F061D488AEC0095C5AD /* ViewController.swift */,
 				2CA20F081D488AEC0095C5AD /* Main.storyboard */,
@@ -125,6 +162,23 @@
 			path = YFSwiftFrameworkUITests;
 			sourceTree = "<group>";
 		};
+		47BCDD29D690BA51DD4070E5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4549DC984107576C217B22AF /* Pods-YFSwiftFramework.debug.xcconfig */,
+				A7B48475B3B592C0676C227A /* Pods-YFSwiftFramework.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E82D6163FBC95C9AD18F584A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32136D78940A36796460ED81 /* Pods_YFSwiftFramework.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,10 +186,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2CA20F291D488AEC0095C5AD /* Build configuration list for PBXNativeTarget "YFSwiftFramework" */;
 			buildPhases = (
+				241E1E25817D0CEA93776540 /* Check Pods Manifest.lock */,
 				2CA20EFD1D488AEC0095C5AD /* Sources */,
 				2CA20EFE1D488AEC0095C5AD /* Frameworks */,
 				2CA20EFF1D488AEC0095C5AD /* Resources */,
-				2CA20F321D48B8890095C5AD /* ShellScript */,
+				2E17E561BD75ED3CB89C8637 /* Embed Pods Frameworks */,
+				E35B947C861C36112A63138C /* Copy Pods Resources */,
+				2C92F9A21D4A498B00A4DEE4 /* ShellScript */,
+				2C9799391D4A4ED700F14D97 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -194,6 +252,7 @@
 				TargetAttributes = {
 					2CA20F001D488AEC0095C5AD = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 					};
 					2CA20F141D488AEC0095C5AD = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -253,7 +312,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2CA20F321D48B8890095C5AD /* ShellScript */ = {
+		241E1E25817D0CEA93776540 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2C92F9A21D4A498B00A4DEE4 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -266,6 +340,49 @@
 			shellPath = /bin/sh;
 			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
 		};
+		2C9799391D4A4ED700F14D97 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "TAGS=\"TODO:|FIXME:\"\necho \"searching ${SRCROOT} for ${TAGS}\"\nfind \"${SRCROOT}\" \\( -name \"*.swift\" \\) -print0 | xargs -0 egrep --with-filename --line-number --only-matching \"($TAGS).*\\$\" | perl -p -e \"s/($TAGS)/ warning: \\$1/\"";
+		};
+		2E17E561BD75ED3CB89C8637 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YFSwiftFramework/Pods-YFSwiftFramework-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E35B947C861C36112A63138C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YFSwiftFramework/Pods-YFSwiftFramework-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -273,6 +390,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C97993C1D4A55EE00F14D97 /* AppDelegate+Extension.swift in Sources */,
+				2C92F9A11D4A48CA00A4DEE4 /* YFConfig.swift in Sources */,
 				2CA20F071D488AEC0095C5AD /* ViewController.swift in Sources */,
 				2CA20F051D488AEC0095C5AD /* AppDelegate.swift in Sources */,
 			);
@@ -414,23 +533,32 @@
 		};
 		2CA20F2A1D488AEC0095C5AD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4549DC984107576C217B22AF /* Pods-YFSwiftFramework.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = YFSwiftFramework/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.coryphaei.YFSwiftFramework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		2CA20F2B1D488AEC0095C5AD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7B48475B3B592C0676C227A /* Pods-YFSwiftFramework.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = YFSwiftFramework/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.coryphaei.YFSwiftFramework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -499,6 +627,7 @@
 				2CA20F2B1D488AEC0095C5AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2CA20F2C1D488AEC0095C5AD /* Build configuration list for PBXNativeTarget "YFSwiftFrameworkTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +636,7 @@
 				2CA20F2E1D488AEC0095C5AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2CA20F2F1D488AEC0095C5AD /* Build configuration list for PBXNativeTarget "YFSwiftFrameworkUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +645,7 @@
 				2CA20F311D488AEC0095C5AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
