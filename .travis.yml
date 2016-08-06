@@ -1,5 +1,8 @@
 language: swift
 osx_image: xcode7.3
+xcode_workspace: YFSwiftFramework.xcworkspace
+xcode_scheme: YFSwiftFramework
+xcode_sdk: iphonesimulator9.3
 before_install:
 - brew update
 - gem install fir-cli
