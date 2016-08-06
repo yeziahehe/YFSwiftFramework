@@ -6,7 +6,6 @@ xcode_sdk: iphonesimulator9.3
 before_install:
 - brew update
 - gem install fir-cli
-- gem install cocoapods
 before_script:
 - openssl aes-256-cbc -k "$ENCRYPTION_SECRET" -in scripts/profile/$PROFILE_NAME.mobileprovision.enc
   -d -a -out scripts/profile/$PROFILE_NAME.mobileprovision
