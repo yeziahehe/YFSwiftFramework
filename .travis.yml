@@ -13,7 +13,7 @@ before_script:
 - "./scripts/add-key.sh"
 script:
 - xctool -workspace $APP_NAME.xcworkspace -scheme $APP_NAME -sdk iphoneos -configuration
-  Release OBJROOT=$PWD/build   SYMROOT=$PWD/build CODE_SIGN_IDENTITY="$DEVELOPER_NAME"
+  Release CODE_SIGN_IDENTITY="$DEVELOPER_NAME"
   ONLY_ACTIVE_ARCH=NO
 after_success:
 - "./scripts/sign-and-upload.sh"
