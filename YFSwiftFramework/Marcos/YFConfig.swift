@@ -10,7 +10,7 @@ import Foundation
 
 public class YFConfig {
     
-    // TODO: 添加 app name
+    // TODO:修改appName为项目名称
     public static let appName: String = "com.coryphaei.YFSwiftFramework"
 
 }
