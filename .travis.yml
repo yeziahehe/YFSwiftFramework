@@ -17,9 +17,6 @@ after_success:
 - "./scripts/sign-and-upload.sh"
 after_script:
 - "./scripts/remove-key.sh"
-branches:
-  only:
-  - develop-ci
 env:
   global:
   - APP_NAME="YFSwiftFramework"
