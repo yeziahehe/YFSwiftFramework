@@ -20,5 +20,4 @@ if [ ! -z "$FIR_APP_TOKEN" ]; then
   echo "***************************"
   fir p $OUTPUTDIR/$APP_NAME.ipa \
   -T $FIR_APP_TOKEN
-  RELEASE_DATE=`date '+%Y-%m-%d %H:%M:%S'`
 fi
