@@ -1,0 +1,10 @@
+language: objective-c
+osx_image: xcode7.3
+
+script:
+  - xctool -workspace YFSwiftFramework.xcworkspace -scheme YFSwiftFramework -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+  - xctool test -workspace YFSwiftFramework.xcworkspace -scheme YFSwiftFrameworkTests -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+
+branches:
+  only:
+    - develop-ci
