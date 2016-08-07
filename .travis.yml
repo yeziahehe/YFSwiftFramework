@@ -12,7 +12,7 @@ before_script:
   -out scripts/certs/dist.p12
 - "./scripts/add-key.sh"
 script:
-- xctool -workspace $APP_NAME.xcworkspace -scheme $APP_NAME -sdk iphoneos  -configuration Release OBJROOT=$PWD/build SYMROOT=$PWD/build ONLY_ACTIVE_ARCH=NO CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
+- xctool -workspace $APP_NAME.xcworkspace -scheme $APP_NAME -sdk iphoneos  -configuration Release OBJROOT=$PWD/build SYMROOT=$PWD/build ONLY_ACTIVE_ARCH=NO
 after_success:
 - "./scripts/sign-and-upload.sh"
 after_script:
