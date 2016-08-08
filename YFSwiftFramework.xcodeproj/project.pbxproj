@@ -17,6 +17,7 @@
 		2CA20F0F1D488AEC0095C5AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CA20F0D1D488AEC0095C5AD /* LaunchScreen.storyboard */; };
 		2CA20F1A1D488AEC0095C5AD /* YFSwiftFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA20F191D488AEC0095C5AD /* YFSwiftFrameworkTests.swift */; };
 		2CA20F251D488AEC0095C5AD /* YFSwiftFrameworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA20F241D488AEC0095C5AD /* YFSwiftFrameworkUITests.swift */; };
+		2CCAAF281D586CAA00AE95AB /* YFNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCAAF271D586CAA00AE95AB /* YFNetwork.swift */; };
 		3F9951DCC22EF5B95BB1BEFB /* Pods_YFSwiftFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3646963494428B87308177E7 /* Pods_YFSwiftFramework.framework */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +56,7 @@
 		2CA20F201D488AEC0095C5AD /* YFSwiftFrameworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YFSwiftFrameworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CA20F241D488AEC0095C5AD /* YFSwiftFrameworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YFSwiftFrameworkUITests.swift; sourceTree = "<group>"; };
 		2CA20F261D488AEC0095C5AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CCAAF271D586CAA00AE95AB /* YFNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YFNetwork.swift; sourceTree = "<group>"; };
 		3646963494428B87308177E7 /* Pods_YFSwiftFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YFSwiftFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAFB6470819AAB4159675A70 /* Pods-YFSwiftFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YFSwiftFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-YFSwiftFramework/Pods-YFSwiftFramework.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -88,6 +90,7 @@
 		2C2B76901D54CC29005496C9 /* YFNertwork */ = {
 			isa = PBXGroup;
 			children = (
+				2CCAAF271D586CAA00AE95AB /* YFNetwork.swift */,
 			);
 			name = YFNertwork;
 			path = YFNertworking;
@@ -417,6 +420,7 @@
 				2C2B76961D54CCAA005496C9 /* AppDelegate+Extension.swift in Sources */,
 				2CA20F051D488AEC0095C5AD /* AppDelegate.swift in Sources */,
 				2C2B76981D54D25D005496C9 /* NSFileManager+YFExtension.swift in Sources */,
+				2CCAAF281D586CAA00AE95AB /* YFNetwork.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
