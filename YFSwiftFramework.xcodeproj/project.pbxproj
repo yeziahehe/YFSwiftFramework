@@ -85,10 +85,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2C2B76901D54CC29005496C9 /* YFNertworking */ = {
+		2C2B76901D54CC29005496C9 /* YFNertwork */ = {
 			isa = PBXGroup;
 			children = (
 			);
+			name = YFNertwork;
 			path = YFNertworking;
 			sourceTree = "<group>";
 		};
@@ -112,7 +113,7 @@
 		2C92F99C1D4A45EC00A4DEE4 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				2C2B76901D54CC29005496C9 /* YFNertworking */,
+				2C2B76901D54CC29005496C9 /* YFNertwork */,
 			);
 			path = Common;
 			sourceTree = "<group>";
