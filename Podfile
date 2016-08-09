@@ -4,6 +4,7 @@ use_frameworks!
 
 target 'YFSwiftFramework' do
     pod 'Alamofire'
+    pod 'ReachabilitySwift'
     pod 'SwiftyBeaver'
     pod 'SwiftyJSON'
 end
