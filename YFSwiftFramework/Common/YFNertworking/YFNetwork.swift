@@ -8,11 +8,8 @@
 
 import Foundation
 import ReachabilitySwift
-
-class YFNetwork {
-    
-}
-
+import Alamofire
+import SwiftyJSON
 
 // MARK: 网络状态
 class YFNetworkMonitor {
@@ -64,5 +61,4 @@ class YFNetworkMonitor {
             yfLog.debug("Network not reachable")
         }
     }
-    
 }
