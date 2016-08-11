@@ -1,6 +1,7 @@
 # YFSwiftFramework
 [![Build Status](https://travis-ci.org/yeziahehe/YFSwiftFramework.svg?branch=master)](https://travis-ci.org/yeziahehe/YFSwiftFramework)
 [![Language](https://img.shields.io/badge/swift-2.2-orange.svg)](http://swift.org)
+[![License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/yeziahehe/YFSwiftFramework/blob/master/LICENSE)
 ![](https://img.shields.io/badge/Supporting-iOS9.0+-orange.svg)
 
 Swift版本的iOS开发框架，主要对第三方库进行封装，集成CI、Test框架。
